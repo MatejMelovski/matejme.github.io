@@ -1,0 +1,67 @@
+body,html
+{
+    height: 100%;
+    margin: 0;
+}
+.navbar
+{
+    height: 10%;
+}
+.navbar .container ul
+{
+    display: flex;
+    list-style-type: none;
+}
+.navbar .container ul li
+{
+    margin-left: 20px;
+}
+.navbar .container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+.navbar .ime
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: midnightblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar a:hover
+{
+    border: 10px solid blue;
+    background-color: blue;
+    border-radius: 25px;
+    color: white;
+}
+main
+{
+    background: url("full-moon-night-sky-with-stars-clouds-scene_33099-2076.jpg") no-repeat center;
+    height: 88%;
+    width: auto;
+}
+.h1
+{
+    margin-top: -600px;
+    margin-left: 1000px;
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: American Typewriter, serif;
+    font-style: oblique;
+}
+.h2
+{
+    margin-left: 1000px;
+    font-size: 45px;
+    color: whitesmoke;
+    font-family: American Typewriter, serif;
+    font-style: oblique;
+}

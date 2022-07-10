@@ -1,0 +1,73 @@
+body,html
+{
+    height: 100%;
+    margin: 0;
+}
+.navbar
+{
+    height: 10%;
+}
+.navbar .container ul
+{
+    display: flex;
+    list-style-type: none;
+}
+.navbar .container ul li
+{
+    margin-left: 20px;
+}
+.navbar .container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+.navbar .ime
+{
+    font-weight: bold;
+    font-size: 30px;
+}
+.navbar a
+{
+    text-decoration: none;
+    color: midnightblue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.navbar a:hover
+{
+    border: 10px solid blue;
+    background-color: blue;
+    border-radius: 25px;
+    color: white;
+}
+.slika
+{
+    height: 700px;
+    width: auto;
+    margin-top: 50px;
+}
+main
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: midnightblue;
+    height: 88%;
+}
+p
+{
+    width: 500px;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+.p1
+{
+    margin-top: 200px;
+    font-family: American Typewriter, serif;
+    font-style: oblique;
+    font-size: 30px;
+}
